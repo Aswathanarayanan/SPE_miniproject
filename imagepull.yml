@@ -11,7 +11,6 @@
                     name: calculator
                     image: aswathanarayanan/test1
                     state: started
-                    ports:
-                        - "9999:80"
+                    command: /bin/bash
             become_user: jenkins
 
