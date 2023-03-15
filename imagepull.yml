@@ -9,9 +9,9 @@
           - name: Create container
             docker_container:
                     name: calculator
-                   image: aswathanarayanan/test1:test
-                   state: started
-                   ports:
-                       - "9999:80"
-           become: yes
+                    image: aswathanarayanan/test1
+                    state: started
+                    ports:
+                        - "9999:80"
+            become: yes
 
