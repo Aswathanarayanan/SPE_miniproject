@@ -11,6 +11,9 @@
                     name: calculator
                     image: aswathanarayanan/test1
                     state: started
-                    command: /bin/bash
+                    #command: /bin/bash
+                    detach : no
+                    debug: yes
+                    #become: yes
             become_user: jenkins
 
