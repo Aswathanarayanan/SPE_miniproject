@@ -13,5 +13,5 @@
                     state: started
                     ports:
                         - "9999:80"
-            become: yes
+            become_user: jenkins
 
