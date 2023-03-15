@@ -1,7 +1,17 @@
 ---
 - hosts: localhost
   tasks:
-          - name: pull image
-            docker_image:
-                    name: aswathanarayanan/test1
+          #- name: pull image
+          # docker_image:
+          #         name: aswathanarayanan/test1:test
+          # become: yes
+          
+          #- name: Create container
+          #  docker_container:
+          #          name: calculator
+          #         image: aswathanarayanan/test1:test
+          #         state: started
+          #         ports:
+          #             - "9999:80"
+          # become: yes
 
