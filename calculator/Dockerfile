@@ -1,4 +1,4 @@
-FROM openjdk:18
+FROM openjdk:17
 
 RUN apt-get update 
 COPY ./target/calculator-1.0-SNAPSHOT.jar ./
