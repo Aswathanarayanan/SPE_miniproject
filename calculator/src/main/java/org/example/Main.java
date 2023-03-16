@@ -5,11 +5,22 @@ import java.lang.Math;
 
 public class Main {
 
+    public static Double squaerroot(Double n){
+        return Math.sqrt(n);
+    }
     public static int factorial(int n){
         int p=1;
         for(int i=1;i<=n;i++)
             p*=i;
         return p;
+    }
+
+    public static Double naturallog(Double n){
+        return Math.log(n);
+    }
+
+    public static Double power(Double n, Double p){
+        return Math.pow(n,p);
     }
     public static void main(String[] args) {
         Double number1,power;
@@ -29,7 +40,7 @@ public class Main {
             case 1:
                 System.out.println("Enter the number");
                 number1=input.nextDouble();
-                System.out.println("Square root of " + number1 +" is " + Math.sqrt(number1) );
+                System.out.println("Square root of " + number1 +" is " + squaerroot(number1) );
                 break;
 
             case 2:
@@ -41,7 +52,7 @@ public class Main {
             case 3:
                 System.out.println("Enter the number");
                 number1=input.nextDouble();
-                System.out.println("Log ( ln(x) ) of " + number1 +" is " + Math.log(number1) );
+                System.out.println("Log ( ln(x) ) of " + number1 +" is " + naturallog(number1) );
                 break;
 
             case 4:
@@ -49,7 +60,7 @@ public class Main {
                 number1=input.nextDouble();
                 System.out.println("Enter the power");
                 power=input.nextDouble();
-                System.out.println(number1 +" power " + power + " is " + Math.pow(number1,power) );
+                System.out.println(number1 +" power " + power + " is " + power(number1,power) );
                 break;
             default:
                 System.out.println("Invalid operator!");
