@@ -1,19 +1,21 @@
 ---
 - hosts: localhost
   tasks:
-          #- name: pull image
-          # docker_image:
-          #         name: aswathanarayanan/test1:test
-          # become: yes
+          - name: pull image
+            docker_image:
+                name: aswathanarayanan/test1:test
+            become: yes
+            
+          - name: Run docker
+            shell: docker create -it --name calculator aswathanarayanan/test1
+            become: yes
           
-          - name: Create container
-            docker_container:
-                    name: calculator
-                    image: aswathanarayanan/test1
-                    state: started
+         # - name: Create container
+         #   docker_container:
+         #           name: calculator
+         #           image: aswathanarayanan/test1
+         #           state: started
                     #command: /bin/bash
-                    detach : no
-                    debug: yes
-                    #become: yes
-            become_user: jenkins
+         #   become: yes
+         #   become_user: jenkins
 
