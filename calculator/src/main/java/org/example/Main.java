@@ -2,25 +2,42 @@ package org.example;
 
 import java.util.Scanner;
 import java.lang.Math;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 public class Main {
 
-    public static Double squaerroot(Double n){
-        return Math.sqrt(n);
+    private static final Logger logger = LogManager.getLogger(Main.class);
+    public Main(){
+
+    }
+    public static Double squareroot(Double n){
+        logger.info("Square root of" + n + "is");
+        Double res=Math.sqrt(n);
+        logger.info(res);
+        return res;
     }
     public static int factorial(int n){
+        logger.info("Factorial of "+n+" is ");
         int p=1;
         for(int i=1;i<=n;i++)
             p*=i;
+        logger.info(p);
         return p;
     }
 
     public static Double naturallog(Double n){
-        return Math.log(n);
+        logger.info("Log of " + n + "is");
+        Double res=Math.log(n);
+        logger.info(res);
+        return res;
     }
 
     public static Double power(Double n, Double p){
-        return Math.pow(n,p);
+        logger.info(n + " power "+p+" is ");
+        Double res=Math.pow(n,p);
+        logger.info(res);
+        return res;
     }
     public static void main(String[] args) {
         Double number1,power;
@@ -40,7 +57,7 @@ public class Main {
             case 1:
                 System.out.println("Enter the number");
                 number1=input.nextDouble();
-                System.out.println("Square root of " + number1 +" is " + squaerroot(number1) );
+                System.out.println("Square root of " + number1 +" is " + squareroot(number1) );
                 break;
 
             case 2:
