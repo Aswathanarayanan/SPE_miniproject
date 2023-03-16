@@ -44,46 +44,52 @@ public class Main {
         int number2;
 
         // create an object of Scanner class
-        System.out.println("Enter your choice");
-        System.out.println("1. Square root function");
-        System.out.println("2. Factorial function");
-        System.out.println("3. Natural logarithm (base)е");
-        System.out.println("4. Power function ");
         Scanner input = new Scanner(System.in);
-        int operator=input.nextInt();
 
-        switch (operator) {
+        do {
+            System.out.println("Enter your choice");
+            System.out.println("1. Square root function");
+            System.out.println("2. Factorial function");
+            System.out.println("3. Natural logarithm (base)е");
+            System.out.println("4. Power function ");
+            System.out.println("5. Exit ");
+            int operator = input.nextInt();
 
-            case 1:
-                System.out.println("Enter the number");
-                number1=input.nextDouble();
-                System.out.println("Square root of " + number1 +" is " + squareroot(number1) );
-                break;
+            switch (operator) {
 
-            case 2:
-                System.out.println("Enter the number");
-                number2=input.nextInt();
-                System.out.println("Factorial of " + number2 +" is " + factorial(number2) );
-                break;
+                case 1:
+                    System.out.println("Enter the number");
+                    number1 = input.nextDouble();
+                    System.out.println("Square root of " + number1 + " is " + squareroot(number1));
+                    break;
 
-            case 3:
-                System.out.println("Enter the number");
-                number1=input.nextDouble();
-                System.out.println("Log ( ln(x) ) of " + number1 +" is " + naturallog(number1) );
-                break;
+                case 2:
+                    System.out.println("Enter the number");
+                    number2 = input.nextInt();
+                    System.out.println("Factorial of " + number2 + " is " + factorial(number2));
+                    break;
 
-            case 4:
-                System.out.println("Enter the number");
-                number1=input.nextDouble();
-                System.out.println("Enter the power");
-                power=input.nextDouble();
-                System.out.println(number1 +" power " + power + " is " + power(number1,power) );
-                break;
-            default:
-                System.out.println("Invalid operator!");
-                break;
-        }
+                case 3:
+                    System.out.println("Enter the number");
+                    number1 = input.nextDouble();
+                    System.out.println("Log ( ln(x) ) of " + number1 + " is " + naturallog(number1));
+                    break;
 
-        input.close();
+                case 4:
+                    System.out.println("Enter the number");
+                    number1 = input.nextDouble();
+                    System.out.println("Enter the power");
+                    power = input.nextDouble();
+                    System.out.println(number1 + " power " + power + " is " + power(number1, power));
+                    break;
+                case 5:
+                    System.out.println("Exiting...");
+                    input.close();
+                    return;
+                default:
+                    System.out.println("Invalid operator!");
+                    break;
+            }
+        }while(true);
     }
 }

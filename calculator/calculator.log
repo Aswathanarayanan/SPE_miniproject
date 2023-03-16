@@ -1,0 +1,14 @@
+2023-03-16 21:30:22.752 [main] INFO  org.example.Main - Log of 3.0is
+2023-03-16 21:30:22.758 [main] INFO  org.example.Main - 1.0986122886681098
+2023-03-16 21:37:52.908 [main] INFO  org.example.Main - Log of 3.0is
+2023-03-16 21:37:52.913 [main] INFO  org.example.Main - 1.0986122886681098
+2023-03-16 21:38:18.461 [main] INFO  org.example.Main - Factorial of 5 is 
+2023-03-16 21:38:18.465 [main] INFO  org.example.Main - 120
+2023-03-16 21:38:22.976 [main] INFO  org.example.Main - 6.0 power 3.0 is 
+2023-03-16 21:38:22.977 [main] INFO  org.example.Main - 216.0
+2023-03-16 22:06:04.538 [main] INFO  org.example.Main - Factorial of 3 is 
+2023-03-16 22:06:04.546 [main] INFO  org.example.Main - 6
+2023-03-16 22:06:06.988 [main] INFO  org.example.Main - 2.0 power 3.0 is 
+2023-03-16 22:06:06.989 [main] INFO  org.example.Main - 8.0
+2023-03-16 22:07:02.617 [main] INFO  org.example.Main - Log of 4.0is
+2023-03-16 22:07:02.622 [main] INFO  org.example.Main - 1.3862943611198906
