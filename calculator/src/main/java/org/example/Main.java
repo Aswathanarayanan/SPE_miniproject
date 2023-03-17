@@ -12,7 +12,7 @@ public class Main {
 
     }
     public static Double squareroot(Double n){
-        logger.info("Square root of" + n + "is");
+        logger.info("[Square root of" + n + "is]");
         Double res=Math.sqrt(n);
         logger.info(res);
         return res;
