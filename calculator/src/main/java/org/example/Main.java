@@ -47,6 +47,7 @@ public class Main {
         Scanner input = new Scanner(System.in);
 
         do {
+            System.out.println("Welcome...");
             System.out.println("Enter your choice");
             System.out.println("1. Square root function");
             System.out.println("2. Factorial function");
