@@ -3,7 +3,7 @@
   tasks:
           - name: remove comtainer
             shell: docker rm calculator
-            become: yes
+            become_user: jenkins
 
           - name: pull image
             docker_image:
