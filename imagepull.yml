@@ -1,6 +1,10 @@
 ---
 - hosts: localhost
   tasks:
+          - name: remove comtainer
+            shell: docker rm calculator
+            become: yes
+
           - name: pull image
             docker_image:
                 name: aswathanarayanan/test1:test
