@@ -74,3 +74,9 @@
 2023-04-02 11:18:59.728 [main] INFO  org.example.Main - NaN
 2023-04-02 11:19:12.054 [main] INFO  org.example.Main - 2.0 power -1.0 is 
 2023-04-02 11:19:12.054 [main] INFO  org.example.Main - 0.5
+2023-04-02 11:19:57.620 [main] INFO  org.example.Main - Factorial of 0 is 
+2023-04-02 11:19:57.625 [main] INFO  org.example.Main - 1
+2023-04-02 11:19:59.599 [main] INFO  org.example.Main - Log of 6.0is
+2023-04-02 11:19:59.600 [main] INFO  org.example.Main - 1.791759469228055
+2023-04-02 11:20:06.663 [main] INFO  org.example.Main - 5.0 power 0.0 is 
+2023-04-02 11:20:06.664 [main] INFO  org.example.Main - 1.0

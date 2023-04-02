@@ -17,8 +17,8 @@
             #become: yes
             become_user: jenkins
 
-          - name: Print
-            shell: echo "hello"
+            #- name: Print
+            #shell: echo "hello"
           
          # - name: Create container
          #   docker_container:
