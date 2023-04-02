@@ -62,3 +62,15 @@
 2023-03-21 12:40:39.303 [main] INFO  org.example.Main - 0.0
 2023-03-21 12:40:39.303 [main] INFO  org.example.Main - Log of 5.0is
 2023-03-21 12:40:39.304 [main] INFO  org.example.Main - 1.6094379124341003
+2023-04-02 11:18:43.048 [main] INFO  org.example.Main - Factorial of 0 is 
+2023-04-02 11:18:43.054 [main] INFO  org.example.Main - 1
+2023-04-02 11:18:46.341 [main] INFO  org.example.Main - Factorial of 5 is 
+2023-04-02 11:18:46.342 [main] INFO  org.example.Main - 120
+2023-04-02 11:18:49.849 [main] INFO  org.example.Main - [Square root of4.0is]
+2023-04-02 11:18:49.849 [main] INFO  org.example.Main - 2.0
+2023-04-02 11:18:55.460 [main] INFO  org.example.Main - Log of 7.0is
+2023-04-02 11:18:55.460 [main] INFO  org.example.Main - 1.9459101490553132
+2023-04-02 11:18:59.727 [main] INFO  org.example.Main - Log of -1.0is
+2023-04-02 11:18:59.728 [main] INFO  org.example.Main - NaN
+2023-04-02 11:19:12.054 [main] INFO  org.example.Main - 2.0 power -1.0 is 
+2023-04-02 11:19:12.054 [main] INFO  org.example.Main - 0.5

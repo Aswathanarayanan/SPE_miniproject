@@ -67,12 +67,20 @@ public class Main {
                 case 2:
                     System.out.println("Enter the number");
                     number2 = input.nextInt();
+                    if(number2<0) {
+                        System.out.println("Invalid input");
+                        break;
+                    }
                     System.out.println("Factorial of " + number2 + " is " + factorial(number2));
                     break;
 
                 case 3:
                     System.out.println("Enter the number");
                     number1 = input.nextDouble();
+                    if(number1<0) {
+                        System.out.println("Invalid input");
+                        break;
+                    }
                     System.out.println("Log ( ln(x) ) of " + number1 + " is " + naturallog(number1));
                     break;
 
