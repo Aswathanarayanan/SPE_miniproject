@@ -4,6 +4,7 @@
           - name: remove comtainer
             shell: docker rm calculator
             become_user: jenkins
+            ignore_errors: true
 
           - name: pull image
             docker_image:
