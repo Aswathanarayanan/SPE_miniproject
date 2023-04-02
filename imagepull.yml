@@ -3,8 +3,8 @@
   tasks:
           - name: remove comtainer
             shell: |
-                    docker rmi $(docker images -q aswathanarayanan/test1:latest)
                     docker rm calculator
+                    docker rmi $(docker images -q aswathanarayanan/test1:latest)
             become_user: jenkins
             ignore_errors: true
 
@@ -30,4 +30,4 @@
                     #command: /bin/bash
          #   become: yes
          #   become_user: jenkins
-
+i
