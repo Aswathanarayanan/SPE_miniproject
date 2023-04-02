@@ -30,3 +30,35 @@
 2023-03-16 22:29:14.196 [main] INFO  org.example.Main - 0.6931471805599453
 2023-03-16 22:29:16.901 [main] INFO  org.example.Main - Factorial of 5 is 
 2023-03-16 22:29:16.902 [main] INFO  org.example.Main - 120
+2023-03-21 12:40:39.261 [main] INFO  org.example.Main - Factorial of 6 is 
+2023-03-21 12:40:39.265 [main] INFO  org.example.Main - 720
+2023-03-21 12:40:39.266 [main] INFO  org.example.Main - Factorial of 2 is 
+2023-03-21 12:40:39.266 [main] INFO  org.example.Main - 2
+2023-03-21 12:40:39.272 [main] INFO  org.example.Main - [Square root of4.0is]
+2023-03-21 12:40:39.273 [main] INFO  org.example.Main - 2.0
+2023-03-21 12:40:39.273 [main] INFO  org.example.Main - [Square root of5.0is]
+2023-03-21 12:40:39.274 [main] INFO  org.example.Main - 2.23606797749979
+2023-03-21 12:40:39.275 [main] INFO  org.example.Main - [Square root of9.0is]
+2023-03-21 12:40:39.275 [main] INFO  org.example.Main - 3.0
+2023-03-21 12:40:39.276 [main] INFO  org.example.Main - [Square root of3.0is]
+2023-03-21 12:40:39.277 [main] INFO  org.example.Main - 1.7320508075688772
+2023-03-21 12:40:39.278 [main] INFO  org.example.Main - Log of 4.0is
+2023-03-21 12:40:39.278 [main] INFO  org.example.Main - 1.3862943611198906
+2023-03-21 12:40:39.279 [main] INFO  org.example.Main - Log of 7.0is
+2023-03-21 12:40:39.279 [main] INFO  org.example.Main - 1.9459101490553132
+2023-03-21 12:40:39.280 [main] INFO  org.example.Main - Factorial of 5 is 
+2023-03-21 12:40:39.281 [main] INFO  org.example.Main - 120
+2023-03-21 12:40:39.281 [main] INFO  org.example.Main - Factorial of 3 is 
+2023-03-21 12:40:39.282 [main] INFO  org.example.Main - 6
+2023-03-21 12:40:39.297 [main] INFO  org.example.Main - 1.0 power 2.0 is 
+2023-03-21 12:40:39.298 [main] INFO  org.example.Main - 1.0
+2023-03-21 12:40:39.298 [main] INFO  org.example.Main - 4.0 power -2.0 is 
+2023-03-21 12:40:39.299 [main] INFO  org.example.Main - 0.0625
+2023-03-21 12:40:39.300 [main] INFO  org.example.Main - 2.0 power 4.0 is 
+2023-03-21 12:40:39.300 [main] INFO  org.example.Main - 16.0
+2023-03-21 12:40:39.301 [main] INFO  org.example.Main - 5.0 power 2.0 is 
+2023-03-21 12:40:39.301 [main] INFO  org.example.Main - 25.0
+2023-03-21 12:40:39.302 [main] INFO  org.example.Main - Log of 1.0is
+2023-03-21 12:40:39.303 [main] INFO  org.example.Main - 0.0
+2023-03-21 12:40:39.303 [main] INFO  org.example.Main - Log of 5.0is
+2023-03-21 12:40:39.304 [main] INFO  org.example.Main - 1.6094379124341003

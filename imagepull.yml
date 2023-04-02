@@ -11,6 +11,9 @@
             shell: docker create -it --name calculator aswathanarayanan/test1
             #become: yes
             become_user: jenkins
+
+          - name: Print
+            shell: echo "hello"
           
          # - name: Create container
          #   docker_container:
