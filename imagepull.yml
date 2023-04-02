@@ -2,7 +2,9 @@
 - hosts: localhost
   tasks:
           - name: remove comtainer
-            shell: docker rm calculator
+            shell: |
+                    docker rmi $(docker images -q aswathanarayanan/test1:latest)
+                    docker rm calculator
             become_user: jenkins
             ignore_errors: true
 
